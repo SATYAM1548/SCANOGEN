@@ -27,10 +27,10 @@
 1. Clone the repository
 
 ```
-git clone https://github.com/bbhavik16/TPO-Website.git
+git clone https://github.com/SATYAM1548/SCANOGEN.git
 ```
 
-2. Install Node.js (JavaScript runtime environment) and MongoDB(document-oriented database program)
+2. Install Node.js (JavaScript runtime environment) 
 
 3. Install the dependencies using
 
@@ -43,19 +43,13 @@ npm i
 CLOUDINARY_CLOUD_NAME={YOUR CLOUDINARY NAME}
 CLOUDINARY_KEY={YOUR CLOUDINARY KEY}
 CLOUDINARY_SECRET={YOUR CLOUDINARY SECRET}
-MAPBOX_TOKEN={YOUR MAPBOX TOKEN}
-GOOGLE_CLIENT_ID ={YOUR GOOGLE CLIENT ID}
-GOOGLE_CLIENT_SECRET ={YOUR GOOGLE SECRET}
-GOOGLE_CALLBACK_URL ="http://localhost:3000/google/callback"
-TPO_PASSWORD={YOUR EMAIL AND PASSWORD}
-SECRET={YOUR OWN SECRET}
+
 ```
 
 5. For environment variables create accounts on following sites:
 ```
 CLOUDINARY LINK=https://cloudinary.com/users/register/free
-MAPBOX LINK=https://account.mapbox.com/auth/signup/
-GOOGLE LINK=https://console.cloud.google.com/home
+
 ```
 
 ## 🏃‍♀️ Usage
@@ -64,22 +58,19 @@ After setting up for Web App, follow the below instructions to get it running.
 
 #### For Web
 
-1. Enter mongod and mongo command to connect to the database.
-
-2. Go to gitbash/command prompt, make sure you are in TPO-Website directory, run following command in gitbash
+1. Go to gitbash/command prompt, make sure you are in SCANOGEN directory, run following command in gitbash
 
 ```
 nodemon app.js
 ```
 
-3. Open (localhost:3000/) in your browser to use TPO.
+3. Open (localhost:3000/) in your browser to use SCANOGEN.
 
 ## 🔮 Future Scope
 
-- [ ] We could add more email security so that only domain specific emails are allowed to log in and register.
-- [ ] More customisable resume templates can be added.
-- [ ] Add a notification section for various events related to TPO.
+- [ ] More customisable QR downloads can be added.
+- [ ] Authenticate a user
 
-## 🖼 Recording
 
- [Website Demo](https://drive.google.com/drive/folders/1Wh47xX10LzDLpRedsaqX1sScADr4RQXq)
+
+ 
