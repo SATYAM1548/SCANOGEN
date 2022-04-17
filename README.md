@@ -10,7 +10,7 @@
 ## 🔗 Links
 
 - GitHub repo link: [Link to repository](https://github.com/SATYAM1548/SCANOGEN)
-
+- website link:[link to website](https://scanogen.herokuapp.com/)
 
 ## 🤖 Technology Stack
 
